@@ -5,8 +5,8 @@ function Parallex(props) {
   return (
     <div className='parallex_main'>
           <div className='parallex_bottom'>
-            <h1 className='header_name'>C-MAC</h1>
-            <h2 className='header_motto'> Some text that describes the Company and a motto.</h2>
+            <h1 className='header_name' style={{color:"#fff"}}>Strive not to be a success,<br/> but rather to be of value.</h1>
+            <h2 className='header_motto'>Albert Einstein</h2>
           </div> 
     </div>
   )

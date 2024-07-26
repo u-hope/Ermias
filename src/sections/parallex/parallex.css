@@ -3,13 +3,14 @@
     height:50vh;
     background-image: url('../../Img/par.jfif');
     background-attachment: fixed;
+    
     /* height: 60vh; */
     width: 100%;
     position: relative;
 }
 .parallex_bottom{
     height: 100%;
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(8px);
     display: flex;
     flex-direction: column;
     justify-content: center;
