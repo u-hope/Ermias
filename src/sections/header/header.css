@@ -1,0 +1,111 @@
+.header_main{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    left: 0;
+    background: rgb(0,196,204);
+    background: radial-gradient(circle, rgba(0,196,204,1) 52%, rgba(10,26,68,1) 100%);
+    background-size: cover;
+    
+}
+.header_body{
+    height: 100%;
+    display: grid;
+    grid-template-columns:6fr 5fr;
+    /* padding: 8vh; */
+}
+.header_left{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto;
+    /* align-items: center; */
+    text-align: center;
+    color: black;
+    width:60%;
+    
+}
+.header_right{
+   display: grid;
+   grid-template-areas: "stack";
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+.header_right > * {
+    grid-area: stack;
+    animation: parallaxAnim linear;
+    animation-timeline: scroll();
+}
+.header_right :nth-child(3){
+    
+    --parallax-speed:15;
+    margin-left: 50%;
+    margin-top: -82%;
+    
+}
+.header_right :nth-child(4){
+    
+    --parallax-speed:-25;
+    margin-left: -19%;
+    margin-top: 0px;
+    
+}
+.header_right :nth-child(5){
+    
+    --parallax-speed:10;
+    margin-left: 65%;
+    margin-top: 60%;
+}
+.header_right :nth-child(6){
+    
+    --parallax-speed:-15;
+    margin-left: 40%;
+    margin-top: 0px;
+    z-index: 2;
+}
+.header_right :nth-child(7){
+    
+    --parallax-speed:8;
+    margin-left: 0%;
+    margin-top: -80%;
+    z-index: 1;
+}
+.header_right :nth-child(8){
+    
+    --parallax-speed:-50;
+    margin-left: 0;
+    margin-top: 80%;
+    z-index: 2;
+}
+.computer{
+    width: 90%;
+    height: 75%;  
+    z-index: 1;
+   
+}
+
+.header_name{
+    color: #0a1a44;
+    font-weight: 600;
+    font-size: 3rem;
+}
+.header_motto{
+    color: #FFB105;
+    font-weight: 300;
+    font-size: 30px;
+}
+.header_button{
+    min-width: 30%;
+    margin-top:50px;
+    padding: 10px;
+    margin-left:20vh;
+    margin-right: 20vh;
+    color: white;
+    background-color: #0a1a44;
+    box-shadow: rgba(22,56,57, 0.34) 0px 10px 8px;
+    cursor: pointer;
+}

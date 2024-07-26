@@ -1,0 +1,9 @@
+.app{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    background-image: url('../src/Img/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

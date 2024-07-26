@@ -1,0 +1,43 @@
+.experience_main{
+    background-color: #00c4cc;
+    height:auto;
+    width: 100%;
+    scroll-snap-align: start; 
+}
+.ex-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+}
+.exLeft{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.section-heading{
+    text-align: center;
+}
+.section-heading h4{
+    font-size: 3vw;
+}
+.section-heading p{
+    color: #09024b;
+}
+.exRight{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.project-filter{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}
+.project-filter li{
+    margin-left: 2vw;
+    font-weight: 500;
+    cursor: pointer;
+}
+.project-filter li:hover{
+    color: #09024b;
+}
