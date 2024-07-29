@@ -42,7 +42,7 @@ function About(props) {
   return (
     <div className="about_main">
       <div className="about_top">
-        <div className="about_title" style={{color:"#00859B"}}>About Us</div>
+        <div className="about_title" style={{color:"#00849b7a"}}>About Me</div>
         <div className="about_body" style={{textAlign:"center",color:"#fff"}}>
         {/* We work to increase the visibility and awareness of gender equality issues while elevating the voices of underrepresented communities. We do this by facilitating networking and collaboration between a wide range of organizations, NGOs, and advocates in order to foster synergies and collective action. We also support grassroots movements in influencing policy and driving systemic change through strategic advocacy efforts. By making essential resources, educational materials, and empowering tools easily accessible, we empower individuals and strengthen the capacity of gender equality champions.  */}
         I am a skilled and motivated Software Engineer actively pursuing a Master’s degree in Artificial Intelligence (AI). With a strong

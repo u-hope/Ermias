@@ -1,8 +1,9 @@
 .app{
     height: 100vh;
+    width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-    position: absolute;
+    /* position: absolute; */
     background-image: url('../src/Img/1.jpg');
     background-size: cover;
     background-repeat: no-repeat;

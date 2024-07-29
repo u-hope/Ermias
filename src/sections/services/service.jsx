@@ -4,6 +4,7 @@ import backend from "../../Img/backend.png";
 import frontend from "../../Img/frontend.png";
 import Digital from "../../Img/digital.png";
 import machine from "../../Img/machine.png";
+import ExCard from '../../components/exCard/exCard';
 
 
 
@@ -15,11 +16,11 @@ function Service(props) {
             <div className='service_title'>Skills</div>
           </div>
           <div className='service_bottom'>
-            <Card myImg={backend} title={"BackEnd Development"} detail={"2 years experience"}/>
-            <Card myImg={frontend} title={"FrontEnd Development"} detail={"3 years experience"}/>
-            <Card myImg={machine} title={"Machine Learning Models Development"} detail={"2 years experience"}/>
-            <Card myImg={Digital} title={"Digital Marketing"} detail={"1 year experience"}/>
-            <Card myImg={backend} title={"BackEnd Development"} detail={"2 years experience"}/>
+            <ExCard myImg={backend} title={"BackEnd Development"} detail={"2 years experience"} techStack={"Nodejs || Python || Javascript"}/>
+            <ExCard myImg={frontend} title={"FrontEnd Development"} detail={"3 years experience"} techStack={"Reactjs || HTML || SCSS || Javascript"}/>
+            <ExCard myImg={machine} title={"Machine Learning Models Development"} detail={"2 years experience"} techStack={"LLM || Computer Vision "}/>
+            <ExCard myImg={Digital} title={"Digital Marketing"} detail={"1 year experience"} techStack={"Strategizing || Posting || Runing Campaigns"}/>
+            <ExCard myImg={backend} title={"BackEnd Development"} detail={"2 years experience"} techStack={"Nodejs  || Python || Javascript"}/>
           </div> 
     </div>
   )
